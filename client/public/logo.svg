@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Plate -->
+  <circle cx="256" cy="256" r="240" fill="#4CAF50" opacity="0.1" />
+  <circle cx="256" cy="256" r="220" stroke="#4CAF50" stroke-width="8" />
+  
+  <!-- Heart -->
+  <path d="M256 350
+    C 256 350, 400 280, 400 200
+    C 400 150, 350 120, 310 120
+    C 270 120, 256 150, 256 150
+    C 256 150, 242 120, 202 120
+    C 162 120, 112 150, 112 200
+    C 112 280, 256 350, 256 350 Z" 
+    fill="#4CAF50"/>
+    
+  <!-- Fork and Spoon -->
+  <rect x="180" y="200" width="8" height="100" rx="4" transform="rotate(-30 180 200)" fill="#4CAF50"/>
+  <rect x="324" y="200" width="8" height="100" rx="4" transform="rotate(30 324 200)" fill="#4CAF50"/>
+</svg> 
