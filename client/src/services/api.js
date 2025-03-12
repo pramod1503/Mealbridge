@@ -2,8 +2,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 
 const api = axios.create({
-  // In development, we don't need a baseURL as we're using the Vite proxy
-  baseURL: import.meta.env.PROD ? (import.meta.env.VITE_API_URL || '') : '',
+  baseURL: import.meta.env.VITE_API_URL || '',
   headers: {
     'Content-Type': 'application/json'
   }
